@@ -22,3 +22,10 @@ main{
 footer{
   height: 10vh;
 }
+
+list-padding{
+  padding-left: 30vw;
+  padding-right: 30vw;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
