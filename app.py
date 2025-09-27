@@ -21,7 +21,7 @@ def about():
    return render_template('about.html',title="Halaman About",isi="Ini Halaman About")
 
 @app.route('/biodata')
-def halo():
+def biodata():
     return render_template('biodata.html',title="Biodata",isi=data)
 
 if __name__ == '__main__':
